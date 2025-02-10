@@ -5,6 +5,7 @@ import { VitePWA } from 'vite-plugin-pwa';
 
 /* eslint-disable no-template-curly-in-string */
 export default defineConfig(() => ({
+  base: '/',
   server: {
     port: 3000,
     proxy: {
