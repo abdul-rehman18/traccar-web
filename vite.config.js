@@ -7,7 +7,7 @@ import { VitePWA } from 'vite-plugin-pwa';
 export default defineConfig(() => ({
   base: '/',
   server: {
-    port: 3000,
+    port: 8082,
     proxy: {
       '/api/socket': 'ws://localhost:8082',
       '/api': 'http://localhost:8082',
